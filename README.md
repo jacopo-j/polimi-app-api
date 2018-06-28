@@ -4,8 +4,8 @@ Wrapper scritto in Python3 per i Servizi Online del Politecnico di Milano. Le AP
 
 ## Note su autorizzazione, password, portachiavi
 * Perché lo script funzioni è necessario inserire un token segreto che identifica il client. Per esempio è possibile utilizzare quello dell'app per Android; tuttavia nel codice pubblicato in questo repository il token non viene fornito. Trovarlo è comunque molto semplice.
-* La password viene richiesta e utilizzata solo se non esiste già un token di sessione valido.
-* Quando lo script riceve un token di sessione dai Servizi Online, questo viene salvato nel portachiavi di sistema usando il modulo `keyring`. Verificare la compatibilità con il proprio sistema o eventualmente commentare le relative linee di codice. Il funzionamento dello script con il modulo `keyring` è stato testato su macOS.
+* La password dei Servizi Online viene richiesta e utilizzata solo se non esiste già un token di sessione valido.
+* Quando lo script riceve un token di sessione dal server, questo viene salvato nel portachiavi di sistema usando il modulo `keyring`. Verificare la compatibilità con il proprio sistema o eventualmente commentare le relative linee di codice. Il funzionamento dello script con il modulo `keyring` è stato testato su macOS.
 
 ## Esempio di utilizzo
 ```python
