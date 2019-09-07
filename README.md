@@ -1,6 +1,6 @@
-# polimi_cli
+# polimi-app-api
 
-Wrapper scritto in Python3 per i Servizi Online del Politecnico di Milano. Le API utilizzate sono state ottenute dall'app ufficiale per Android.
+Wrapper scritto in Python3 per l'API dell'applicazione per Android del Politecnico di Milano.
 
 ## Note su autorizzazione, password, portachiavi
 * Perché lo script funzioni è necessario inserire un token segreto che identifica il client. Per esempio è possibile utilizzare quello dell'app per Android; tuttavia nel codice pubblicato in questo repository il token non viene fornito. Trovarlo è comunque molto semplice.
